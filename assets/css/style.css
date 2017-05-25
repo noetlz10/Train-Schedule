@@ -6,13 +6,17 @@ body {
 	background: url("../images/train3.jpg")no-repeat center bottom;
 	margin: 0;
 	padding: 0;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 18px;
 }
 
-.jumbotron, .panel-heading {
+.jumbotron, .panel-heading{
 	color: white;
 	background-color: #2c312d;
-	opacity: .75;
+	opacity: .65;
 	text-shadow: -1px -1px black;
+	font-family: 'Rajdhani', sans-serif;
+
 }
 
 .jumbotron h1 {
@@ -27,5 +31,13 @@ body {
 
 #addTrainBtn {
 	background-color: #2c312d;
+}
 
+#addTrainBtn:hover {
+	background-color: #2c312d;
+
+  border-color: #fff; 
+  opacity: 1;
+  position: relative;
+  top: -5px;
 }
